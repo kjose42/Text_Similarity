@@ -1,0 +1,27 @@
+The main objective of this program is to take a set of text files and analyze their similarity.
+This program takes an input of files and directories.
+From the directories, the code finds files with the appropriate suffix.
+For each file, the file's word frequencies are calculated.
+Then the code calculates the Jensen-Shannon distance between each pair of files.
+
+Uses multithreading
+
+Arguments include:
+    1. Normal arguments, which are: 
+        files/directories
+    2. Optional arguments, which are:
+        "-dN"
+            This argument determines the number of directory threads
+            N is substituted with an int
+        "-fN"
+            This argument determines the number of file threads
+            N is substituted with an int
+        "-aN"
+            This argument determines the number of analysis threads
+            N is substituted with an int
+        "-sS"
+            This argument determines the appropriate suffix for text files
+            S is substituted with a string
+            
+Word frequency is calculated by:
+    (number of times the word appears)/(total number of words)
