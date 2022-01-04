@@ -2,7 +2,7 @@ The main objective of this program is to take a set of text files and analyze th
 This program takes an input of files and directories.
 From the directories, the code finds files with the appropriate suffix.
 For each file, the file's word frequencies are calculated.
-Then the code calculates the Jensen-Shannon distance (see JSD.png) between each pair of files.
+Then the code calculates the Jensen-Shannon distance (see JSD.png for equation) between each pair of files.
 
 Uses multithreading
 
